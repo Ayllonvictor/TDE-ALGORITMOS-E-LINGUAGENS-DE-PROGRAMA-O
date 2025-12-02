@@ -1,9 +1,15 @@
+import json
+
+#lista de tarefas
 tarefas = []
-
+#---------
 # Membro 1
+#---------
 def adicionar_tarefa():
-    pass
-
+    descricao = input("Digite a descrição da tarefa:")
+    tarefas.append({"Descrição": descricao, "status": "pendente"})
+print(f"Tarefa '{descricao}' adicionada!")
+    
 # Membro 2
 def listar_tarefas():
     pass
