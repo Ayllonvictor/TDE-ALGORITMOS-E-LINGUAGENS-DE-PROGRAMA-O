@@ -35,10 +35,23 @@ else:
                     print("número inválido.")
                     except ValueError:
                     print("Digite um número válido")
-
-# Membro 4
+#-----------------------------------
+# Membro 4 - Israel Silva Rodrigues
+#-----------------------------------
 def editar_tarefa():
-    pass
+    listar_tarefas()
+    if tarefas:
+        try:
+            idx = int(input("digite o número da tarefa a editar: ")) - 1
+            if 0 <= idx < len(tarefas):
+                nova = input("Digite a nova descrição: ")
+                tarefas[idx]['descrição'] = nova 
+                print("tarefa atualizada!")
+            else:
+                print("Número inválido.")
+except ValueError:
+print("Digite um número válido.")
+
 
 # Membro 5
 def remover_tarefa():
