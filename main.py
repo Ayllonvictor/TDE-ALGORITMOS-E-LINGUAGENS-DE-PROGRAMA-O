@@ -9,11 +9,17 @@ def adicionar_tarefa():
     descricao = input("Digite a descrição da tarefa:")
     tarefas.append({"Descrição": descricao, "status": "pendente"})
 print(f"Tarefa '{descricao}' adicionada!")
-    
+#----------    
 # Membro 2
+#----------
 def listar_tarefas():
-    pass
-
+if not tarefas:
+        print("Nenhuma tarefa cadastrada.")
+else:
+        print("\n--- Lista de Tarefas ---")
+        for i, t in enumerate(tarefas, 1):
+                print(f"{i} - {t['descricao']}                
+[{t['status']}]")
 # Membro 3
 def marcar_concluida():
     pass
