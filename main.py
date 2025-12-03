@@ -67,15 +67,18 @@ def remover_tarefa():
                 print("Número inválido. ")
         except ValueError:
             print("Digite um número válido.")
-
-# Membro 6
-def carregar_tarefas():
-    pass
-
+-----------------------------------------------------
+# Membro 6 - Emile Silva Carvalho
+-----------------------------------------------------
+def salvar_tarefas():
+    whit open("tarefas.json", "w") as f:
+        json.dump(tarefas, f)
+    print("Tarefas salvas!")
+        
 #----------------------------------------------------
 # Membro 7 - Editado por Giullio Nicolau Rocha Mouta
 #----------------------------------------------------
-def salvar_tarefas():
+def carregar_tarefas():
    global tarefa
     try:
         with open("tarefas.json", "r") as f:
