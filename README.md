@@ -20,40 +20,63 @@ Este projeto é um sistema simples de linha de comando (CLI) em Python para gere
   https://github.com/Ayllonvictor/TDE-ALGORITMOS-E-LINGUAGENS-DE-PROGRAMA-O/invitations
 
 ````
+--------------------------------------------------
+
 2.Acesse a pasta do projeto
 
+TDE-ALGORITMOS-E-LINGUAGENS-DE-PROGRAMAÇÃO
 
+--------------------------------------
 
 3.Execute com Python
+
 python: main.py
 
+--------------------------------------
 
 ▶️ Exemplos de uso
+
+-------------------------------------------------------
+
 Para adicionar uma tarefa:
 
 -Digite a descrição da tarefa: Estudar lógica proposicional
  
 Tarefa 'Estudar lógica proposicional' adicionada!
 
-**Para listar tarefas:
+-----------------------------------------------------------------------
+
+Para listar tarefas:
+
 --- Lista de Tarefas ---
+
 1 - Estudar lógica proposicional [pendente]
 
+------------------------------------------------------------------------
 
-**Para editar a tarefa:
-Digite o número da tarefa a editar: 1  
+Para editar a tarefa:
+
+Digite o número da tarefa a editar: 1 
+
 Digite a nova descrição: Estudar lógica proposicional – capítulo 2  
+
 Tarefa atualizada!  
 
+-------------------------------------------------------------------------
 
-**Para marcar como concluída:**
+Para marcar como concluída:**
+
 Digite o número da tarefa a marcar como concluída: 1  
+
+Tarefa 'Estudar lógica proposicional – capítulo 2' marcada como concluída! 
+
+---------------------------------------------------------------------------
+
+Digite o número da tarefa a marcar como concluída: 1  
+
 Tarefa 'Estudar lógica proposicional – capítulo 2' marcada como concluída!  
 
-
-**Digite o número da tarefa a marcar como concluída: 1  
-Tarefa 'Estudar lógica proposicional – capítulo 2' marcada como concluída!  
-
+---------------------------------------------------------------------------
 
 
 🧑‍💻 Estrutura do código
