@@ -2,16 +2,16 @@ import json
 
 #lista de tarefas
 tarefas = []
-#---------
-# Membro 1
-#---------
+#------------------------------------
+# Membro 1 - João Neves Monteles Neto
+#------------------------------------
 def adicionar_tarefa():
     descricao = input("Digite a descrição da tarefa:")
     tarefas.append({"Descrição": descricao, "status": "pendente"})
 print(f"Tarefa '{descricao}' adicionada!")
-#----------    
-# Membro 2
-#----------
+#------------------------------------------------
+# Membro 2 - Paulo Rijkaard de Oliveira Rodrigues
+#------------------------------------------------
 def listar_tarefas():
 if not tarefas:
         print("Nenhuma tarefa cadastrada.")
@@ -20,7 +20,9 @@ else:
         for i, t in enumerate(tarefas, 1):
                 print(f"{i} - {t['descricao']}                
 [{t['status']}]")
-# Membro 3
+#----------------------------------------
+# Membro 3 - Emmanuella Silva de Oliveira
+#----------------------------------------
   def marcar_concluida():
         listar_tarefas()
         if tarefas:
@@ -46,9 +48,16 @@ def remover_tarefa():
 def carregar_tarefas():
     pass
 
-# Membro 7
+#----------------------------------------------------
+# Membro 7 - Editado por Giullio Nicolau Rocha Mouta
+#----------------------------------------------------
 def salvar_tarefas():
-    pass
+   global tarefa
+    try:
+        with open("tarefas.json", "r") as f:
+            tarefas = json.load(f)
+except FileNotFoundError:
+    tarefas = []
 
 def main():
     while True:
