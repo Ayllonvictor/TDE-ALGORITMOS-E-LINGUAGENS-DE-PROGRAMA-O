@@ -52,10 +52,21 @@ def editar_tarefa():
 except ValueError:
 print("Digite um número válido.")
 
-
-# Membro 5
+------------------------------------------
+# Membro 5 - Ayllon Victor Santos Araujo
+------------------------------------------
 def remover_tarefa():
-    pass
+    listar_tarefas()
+    if tarefas:
+        try:
+            idx = int(input("Digite o número da tarefa a remover: ")) - 1
+            if 0 <= idx < len(tarefas):
+                t = tarefas.pop(idx)
+                print(f"Tarefa'{t['descrição']}' removida!")
+            else:
+                print("Número inválido. ")
+        except ValueError:
+            print("Digite um número válido.")
 
 # Membro 6
 def carregar_tarefas():
