@@ -21,8 +21,18 @@ else:
                 print(f"{i} - {t['descricao']}                
 [{t['status']}]")
 # Membro 3
-def marcar_concluida():
-    pass
+  def marcar_concluida():
+        listar_tarefas()
+        if tarefas:
+            try:
+                idx =  int(input("Digite o número da tarefa a marcar como concluída:")) - 1
+                if 0 <= idx < len(tarefas):
+                    tarefas[idx]['status'] = 'concluida'
+                    print(f"Tarefa '{tarefas[idx] ['descricao']}' marcada como concluida!")
+                    else:
+                    print("número inválido.")
+                    except ValueError:
+                    print("Digite um número válido")
 
 # Membro 4
 def editar_tarefa():
