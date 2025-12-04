@@ -71,7 +71,7 @@ def remover_tarefa():
 # Membro 6 - Emile Silva Carvalho
 -----------------------------------------------------
 def salvar_tarefas():
-    whit open("tarefas.json", "w") as f:
+    with open("tarefas.json", "w") as f:
         json.dump(tarefas, f)
     print("Tarefas salvas!")
         
