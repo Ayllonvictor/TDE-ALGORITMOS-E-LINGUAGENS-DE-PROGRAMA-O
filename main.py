@@ -8,18 +8,17 @@ tarefas = []
 def adicionar_tarefa():
     descricao = input("Digite a descrição da tarefa:")
     tarefas.append({"Descrição": descricao, "status": "pendente"})
-print(f"Tarefa '{descricao}' adicionada!")
+    print(f"Tarefa '{descricao}' adicionada!")
 #------------------------------------------------
 # Membro 2 - Paulo Rijkaard de Oliveira Rodrigues
 #------------------------------------------------
 def listar_tarefas():
-if not tarefas:
+    if not tarefas:
         print("Nenhuma tarefa cadastrada.")
-else:
+    else:
         print("\n--- Lista de Tarefas ---")
         for i, t in enumerate(tarefas, 1):
-                print(f"{i} - {t['descricao']}                
-[{t['status']}]")
+            print(f"{i} - {t['descricao']} [{t['status']}]")
 #----------------------------------------
 # Membro 3 - Emmanuella Silva de Oliveira
 #----------------------------------------
@@ -44,17 +43,17 @@ def editar_tarefa():
         try:
             idx = int(input("digite o número da tarefa a editar: ")) - 1
             if 0 <= idx < len(tarefas):
-                nova = input("Digite a nova descrição: ")
+                nova = input("Digite a nova descricao: ")
                 tarefas[idx]['descrição'] = nova 
                 print("tarefa atualizada!")
             else:
                 print("Número inválido.")
-except ValueError:
-print("Digite um número válido.")
+         except ValueError:
+            print("Digite um número válido.")
 
-------------------------------------------
+#------------------------------------------
 # Membro 5 - Ayllon Victor Santos Araujo
-------------------------------------------
+#------------------------------------------
 def remover_tarefa():
     listar_tarefas()
     if tarefas:
@@ -67,9 +66,9 @@ def remover_tarefa():
                 print("Número inválido. ")
         except ValueError:
             print("Digite um número válido.")
------------------------------------------------------
+#-----------------------------------------------------
 # Membro 6 - Emile Silva Carvalho
------------------------------------------------------
+#-----------------------------------------------------
 def salvar_tarefas():
     with open("tarefas.json", "w") as f:
         json.dump(tarefas, f)
@@ -80,10 +79,10 @@ def salvar_tarefas():
 #----------------------------------------------------
 def carregar_tarefas():
    global tarefa
-    try:
+   try:
         with open("tarefas.json", "r") as f:
             tarefas = json.load(f)
-except FileNotFoundError:
+   except FileNotFoundError:
     tarefas = []
 
 def main():
