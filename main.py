@@ -62,7 +62,7 @@ def remover_tarefa():
             idx = int(input("Digite o número da tarefa a remover: ")) - 1
             if 0 <= idx < len(tarefas):
                 t = tarefas.pop(idx)
-                print(f"Tarefa'{t['descrição']}' removida!")
+                print(f"Tarefa'{t['descricao']}' removida!")
             else:
                 print("Número inválido. ")
         except ValueError:
