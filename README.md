@@ -49,7 +49,6 @@ Implementação da função salvar tarefas (JSON)
 Membro 7 — Giulio Nicolau Rocha Mouta
 
 Implementação da função carregar tarefas (JSON)
-(função precisando de correção)
 
 -------------------------------------
 
