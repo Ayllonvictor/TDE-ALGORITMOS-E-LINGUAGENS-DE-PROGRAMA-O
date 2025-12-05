@@ -76,7 +76,7 @@ def salvar_tarefas():
     print("Tarefas salvas!")
         
 #----------------------------------------------------
-# Membro 7 - Editado por Giullio Nicolau Rocha Mouta
+# Membro 7 - Giullio Nicolau Rocha Mouta
 #----------------------------------------------------
 def carregar_tarefas():
    tarefas
