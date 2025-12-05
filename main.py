@@ -79,7 +79,7 @@ def salvar_tarefas():
 # Membro 7 - Editado por Giullio Nicolau Rocha Mouta
 #----------------------------------------------------
 def carregar_tarefas():
-   tarefa
+   tarefas
 try:
         with open("tarefas.json", "r") as f:
             tarefas = json.load(f)
