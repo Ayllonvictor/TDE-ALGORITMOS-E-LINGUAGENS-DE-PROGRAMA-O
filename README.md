@@ -1,105 +1,96 @@
-# Gerenciador de Tarefas CLI em Python
+Gerenciador de Tarefas — CLI em Python
 
-## 📝 Descrição  
-Este projeto é um sistema simples de linha de comando (CLI) em Python para gerenciar tarefas: adicionar, listar, editar e marcar como concluída.  
-Útil para quem quer um gerenciador de tarefas leve, sem interface gráfica, e que salva tudo em memória (ou arquivo, se adicionar persistência).
+Trabalho desenvolvido por:
 
-## 📂 Funcionalidades implementadas  
-- Adicionar uma nova tarefa com descrição e status “pendente”.  
-- Listar todas as tarefas cadastradas.  
-- Editar a descrição de uma tarefa existente.  
-- Marcar uma tarefa como “concluída”.  
-
-## 🛠 Tecnologias / Linguagem  
-- Python 3.x  
-- Biblioteca padrão (`json`, `input`, etc — se expandir para salvar em arquivo json)  
-
-## 📥 Como executar  
-1. Clone este repositório  
-```bash
-  https://github.com/Ayllonvictor/TDE-ALGORITMOS-E-LINGUAGENS-DE-PROGRAMA-O/invitations
-
-````
---------------------------------------------------
-
-2.Acesse a pasta do projeto
-
-TDE-ALGORITMOS-E-LINGUAGENS-DE-PROGRAMAÇÃO
-
---------------------------------------
-
-3.Execute com Python
-
-python: main.py
-
---------------------------------------
-
-▶️ Exemplos de uso
-
--------------------------------------------------------
-
-Para adicionar uma tarefa:
-
--Digite a descrição da tarefa: Estudar lógica proposicional
- 
-Tarefa 'Estudar lógica proposicional' adicionada!
-
------------------------------------------------------------------------
-
-Para listar tarefas:
-
---- Lista de Tarefas ---
-
-1 - Estudar lógica proposicional [pendente]
-
-------------------------------------------------------------------------
-
-Para editar a tarefa:
-
-Digite o número da tarefa a editar: 1 
-
-Digite a nova descrição: Estudar lógica proposicional – capítulo 2  
-
-Tarefa atualizada!  
-
--------------------------------------------------------------------------
-
-Para marcar como concluída:**
-
-Digite o número da tarefa a marcar como concluída: 1  
-
-Tarefa 'Estudar lógica proposicional – capítulo 2' marcada como concluída! 
-
----------------------------------------------------------------------------
-
-Digite o número da tarefa a marcar como concluída: 1  
-
-Tarefa 'Estudar lógica proposicional – capítulo 2' marcada como concluída!  
-
----------------------------------------------------------------------------
+Emmanuella Silva de Oliveira
+Ayllon Victor Santos Araujo
+Israel Silva Rodrigues
+Emily SIlva Carvalho
+Giullio Nicolau Rocha Mouta 
+João Neves Monteles Neto 
+Paulo Rijkard de Oliveira Rodrigues
 
 
-🧑‍💻 Estrutura do código
-- adicionar_tarefa(): adiciona nova tarefa à lista  
-- listar_tarefas(): exibe todas as tarefas, com index e descrição  
-- editar_tarefa(): altera a descrição de uma tarefa já existente  
-- marcar_concluída(): altera o status da tarefa para “concluída”  
-- tarefas: lista global que armazena todas as tarefas como dicionários { "descricao": ..., "status": ... }
+Projeto da disciplina Algoritmos e Linguagens de Programação
 
-  
+Este projeto é um Gerenciador de Tarefas em linha de comando (CLI) desenvolvido em Python.
+Com ele você pode adicionar, listar, editar e marcar tarefas como concluídas, tudo através de um menu simples no terminal.
+
+📚 Funcionalidades
+
+✔️ Adicionar novas tarefas
+
+✔️ Listar tarefas cadastradas
+
+✔️ Editar descrição de uma tarefa
+
+✔️ Marcar uma tarefa como concluída
+
+✔️ Interface simples no terminal
+
+🛠️ Tecnologias utilizadas
+
+Python 3.x
+
+Nenhuma biblioteca externa — somente módulos nativos do Python.
+
+▶️ Como executar o programa
+
+Certifique-se de ter o Python instalado:
+
+python --version
 
 
+Clone o repositório:
+
+git clone https://github.com/Ayllonvictor/TDE-ALGORITMOS-E-LINGUAGENS-DE-PROGRAMA-O
 
 
+Entre na pasta:
+
+cd TDE-ALGORITMOS-E-LINGUAGENS-DE-PROGRAMA-O
 
 
+Execute o arquivo principal:
 
+python main.py
 
+🧭 Menu de opções
+1 - Adicionar tarefa
+2 - Listar tarefas
+3 - Editar tarefa
+4 - Marcar como concluída
+5 - Sair
 
+📂 Estrutura Interna
 
+As tarefas são armazenadas em uma lista de dicionários:
 
+{
+    "descricao": "Exemplo de tarefa",
+    "status": "pendente"
+}
 
+🚧 Limitações do projeto
 
+❌ As tarefas não são salvas em arquivo
 
+❌ Não há função de excluir tarefa
 
+❌ Entradas inválidas podem gerar erros
 
+🎯 Objetivo acadêmico
+
+Trabalho desenvolvido para praticar:
+
+Estruturas condicionais
+
+Laços de repetição
+
+Manipulação de listas e dicionários
+
+Entrada e saída de dados
+
+📜 Licença
+
+Uso livre para fins acadêmicos.
