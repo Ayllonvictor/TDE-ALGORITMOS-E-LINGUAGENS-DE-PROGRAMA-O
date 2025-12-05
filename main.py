@@ -49,7 +49,7 @@ def editar_tarefa():
                 print("tarefa atualizada!")
             else:
                 print("Número inválido.")
-         except ValueError:
+        except ValueError:
             print("Digite um número válido.")
 
 #------------------------------------------
