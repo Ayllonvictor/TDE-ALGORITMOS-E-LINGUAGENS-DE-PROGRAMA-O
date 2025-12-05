@@ -80,10 +80,10 @@ def salvar_tarefas():
 #----------------------------------------------------
 def carregar_tarefas():
    global tarefa
-   try:
+try:
         with open("tarefas.json", "r") as f:
             tarefas = json.load(f)
-   except FileNotFoundError:
+except FileNotFoundError:
     tarefas = []
 
 def main():
