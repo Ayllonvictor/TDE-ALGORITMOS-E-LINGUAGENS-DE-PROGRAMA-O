@@ -1,22 +1,34 @@
-Gerenciador de Tarefas — CLI em Python
+Gerenciador de Tarefas CLI em Python
+----------------------------------------------
+
+📝 Descrição
 
 Trabalho desenvolvido por:
-
+--------------------------------------
 Emmanuella Silva de Oliveira
+
 Ayllon Victor Santos Araujo
+
 Israel Silva Rodrigues
+
 Emily SIlva Carvalho
+
 Giullio Nicolau Rocha Mouta 
+
 João Neves Monteles Neto 
+
 Paulo Rijkard de Oliveira Rodrigues
 
+-------------------------------------
 
 Projeto da disciplina Algoritmos e Linguagens de Programação
+-----------------------------------------------------------------------------
 
 Este projeto é um Gerenciador de Tarefas em linha de comando (CLI) desenvolvido em Python.
 Com ele você pode adicionar, listar, editar e marcar tarefas como concluídas, tudo através de um menu simples no terminal.
 
 📚 Funcionalidades
+--------------------------------------------------------------------
 
 ✔️ Adicionar novas tarefas
 
@@ -35,6 +47,7 @@ Python 3.x
 Nenhuma biblioteca externa — somente módulos nativos do Python.
 
 ▶️ Como executar o programa
+----------------------------------------------------------------------
 
 Certifique-se de ter o Python instalado:
 
@@ -42,28 +55,36 @@ python --version
 
 
 Clone o repositório:
+----------------------------------------------------------
 
 git clone https://github.com/Ayllonvictor/TDE-ALGORITMOS-E-LINGUAGENS-DE-PROGRAMA-O
 
 
 Entre na pasta:
+-------------------------------------------------------------
 
 cd TDE-ALGORITMOS-E-LINGUAGENS-DE-PROGRAMA-O
 
 
 Execute o arquivo principal:
+----------------------------------------------------------------------------
 
 python main.py
 
 🧭 Menu de opções
+--------------------------------------------------------------------
 1 - Adicionar tarefa
+
 2 - Listar tarefas
+
 3 - Editar tarefa
+
 4 - Marcar como concluída
+
 5 - Sair
 
 📂 Estrutura Interna
-
+---------------------------------------------------------------------------------------
 As tarefas são armazenadas em uma lista de dicionários:
 
 {
@@ -72,6 +93,7 @@ As tarefas são armazenadas em uma lista de dicionários:
 }
 
 🚧 Limitações do projeto
+-----------------------------------------------------------------------------------------
 
 ❌ As tarefas não são salvas em arquivo
 
@@ -80,6 +102,7 @@ As tarefas são armazenadas em uma lista de dicionários:
 ❌ Entradas inválidas podem gerar erros
 
 🎯 Objetivo acadêmico
+-----------------------------------------------------------------------------------------
 
 Trabalho desenvolvido para praticar:
 
@@ -91,6 +114,7 @@ Manipulação de listas e dicionários
 
 Entrada e saída de dados
 
+---------------------------------------------
 📜 Licença
-
+----------------------------------------------
 Uso livre para fins acadêmicos.
