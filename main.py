@@ -18,7 +18,7 @@ def listar_tarefas():
     else:
         print("\n--- Lista de Tarefas ---")
         for i, t in enumerate(tarefas, 1):
-            print(f"{i} - {t['descricao']} [{t['status']}]")
+            print(f"{i} - {t['"Descrição"']} [{t['status']}]")
 #----------------------------------------
 # Membro 3 - Emmanuella Silva de Oliveira
 #----------------------------------------
@@ -29,7 +29,7 @@ def marcar_concluida():
             idx = int(input("Digite o número da tarefa a marcar como concluída:")) - 1
             if 0 <= idx < len(tarefas):
                 tarefas[idx]['status'] = 'concluída'
-                print(f"Tarefa {tarefas[idx]['descricao']} marcada como concluída!")
+                print(f"Tarefa {tarefas[idx]['Descrição']} marcada como concluída!")
             else:
                 print("Número inválido.")
         except ValueError:
@@ -45,7 +45,7 @@ def editar_tarefa():
             idx = int(input("digite o número da tarefa a editar: ")) - 1
             if 0 <= idx < len(tarefas):
                 nova = input("Digite a nova descricao: ")
-                tarefas[idx]['descrição'] = nova 
+                tarefas[idx]['Descrição'] = nova 
                 print("tarefa atualizada!")
             else:
                 print("Número inválido.")
@@ -62,7 +62,7 @@ def remover_tarefa():
             idx = int(input("Digite o número da tarefa a remover: ")) - 1
             if 0 <= idx < len(tarefas):
                 t = tarefas.pop(idx)
-                print(f"Tarefa'{t['descricao']}' removida!")
+                print(f"Tarefa'{t['Descrição']}' removida!")
             else:
                 print("Número inválido. ")
         except ValueError:
@@ -79,7 +79,7 @@ def salvar_tarefas():
 # Membro 7 - Editado por Giullio Nicolau Rocha Mouta
 #----------------------------------------------------
 def carregar_tarefas():
-   global tarefa
+   tarefa
 try:
         with open("tarefas.json", "r") as f:
             tarefas = json.load(f)
