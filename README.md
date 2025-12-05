@@ -3,22 +3,53 @@ Gerenciador de Tarefas CLI em Python
 
 📝 Descrição
 
-👥 Colaboradores e Responsáveis pelas Funções
-----------------------------------------------------
+👥 Responsáveis pelo desenvolvimento
+--------------------------------------------------------
 
-João Neves Monteles Neto — adicionar tarefa
+Membro 1 — João Neves Monteles Neto
 
-Paulo Rijkaard de Oliveira Rodrigues — listar tarefas
+Implementação da função adicionar tarefa
 
-Emmanuella Silva de Oliveira — marcar concluída, README
+-------------------------------------------------------------------------
 
-Israel Silva Rodrigues — editar tarefa
+Membro 2 — Paulo Rijkaard de Oliveira Rodrigues
 
-Ayllon Victor Santos Araujo — remover tarefa, estrutura base + integração
+Implementação da função listar tarefas
 
-Emile Silva Carvalho — salvar/ler arquivo
+----------------------------------------------------------------
 
-Giulio Nicolau Rocha Mouta — melhorias no menu
+Membro 3 — Emmanuella Silva de Oliveira
+
+Implementação da função marcar tarefa como concluída
+
+REAME.md
+
+----------------------------------------------------------------
+
+Membro 4 — Israel Silva Rodrigues
+
+Implementação da função editar tarefa
+
+----------------------------------------------------------------------
+
+Membro 5 — Ayllon Victor Santos Araujo
+
+Implementação de remover tarefa
+
+Estrutura base do código e integração entre funções
+
+-----------------------------------------------------------------------
+
+Membro 6 — Emile Silva Carvalho
+
+Implementação da função salvar tarefas (JSON)
+
+------------------------------------------------------------------
+
+Membro 7 — Giulio Nicolau Rocha Mouta
+
+Implementação da função carregar tarefas (JSON)
+(função precisando de correção)
 
 -------------------------------------
 
