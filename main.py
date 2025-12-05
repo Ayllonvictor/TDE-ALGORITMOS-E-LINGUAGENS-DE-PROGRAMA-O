@@ -88,7 +88,7 @@ except FileNotFoundError:
 
 def main():
     while True:
-        print("===== SISTEMA TODO =====")
+        print("===== SISTEMA ORGANIZADOR DE TAREFAS =====")
         print("1 - Adicionar tarefa")
         print("2 - Listar tarefas")
         print("3 - Marcar como concluída")
