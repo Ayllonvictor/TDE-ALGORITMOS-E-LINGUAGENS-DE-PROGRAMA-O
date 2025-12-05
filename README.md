@@ -3,21 +3,22 @@ Gerenciador de Tarefas CLI em Python
 
 📝 Descrição
 
-Trabalho desenvolvido por:
---------------------------------------
-Emmanuella Silva de Oliveira
+👥 Colaboradores e Responsáveis pelas Funções
+----------------------------------------------------
 
-Ayllon Victor Santos Araujo
+João Neves Monteles Neto — adicionar tarefa
 
-Israel Silva Rodrigues
+Paulo Rijkaard de Oliveira Rodrigues — listar tarefas
 
-Emily SIlva Carvalho
+Emmanuella Silva de Oliveira — marcar concluída, README
 
-Giullio Nicolau Rocha Mouta 
+Israel Silva Rodrigues — editar tarefa
 
-João Neves Monteles Neto 
+Ayllon Victor Santos Araujo — remover tarefa, estrutura base + integração
 
-Paulo Rijkard de Oliveira Rodrigues
+Emile Silva Carvalho — salvar/ler arquivo
+
+Giulio Nicolau Rocha Mouta — melhorias no menu
 
 -------------------------------------
 
